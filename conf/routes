@@ -2,6 +2,7 @@
 # This file defines all application routes (Higher priority routes first)
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
+GET     /               controllers.TodoController.list()
 GET     /todo                       controllers.TodoController.list()
 GET     /todo/helloworld                       controllers.TodoController.helloworld()
 GET     /todo/new                   controllers.TodoController.todoNew()
